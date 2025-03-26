@@ -1,39 +1,72 @@
-# sv
+# 📖 Ordem dos Livros
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<div align="center">
+<img src="https://github.com/wgaboardi/books-svelte/raw/main/.gitassets/capa.png" width="350" />
 
-## Creating a project
+<div data-badges>
+  <img src="https://img.shields.io/github/stars/wgaboardi/books-svelte?style=for-the-badge" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/wgaboardi/books-svelte?style=for-the-badge" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/wgaboardi/books-svelte?style=for-the-badge" alt="GitHub issues" />
+</div>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<div data-badges>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
+</div>
+</div>
 
-```bash
-# create a new project in the current directory
-npx sv create
+O projeto Ordem dos Livros é uma aplicação moderna e interativa, criada para amantes da literatura que desejam explorar e descobrir informações detalhadas sobre autores, livros e outros dados literários, além de acompanhar a ordem cronológica ou de publicação dos livros em séries literárias.
 
-# create a new project in my-app
-npx sv create my-app
-```
+O projeto permite que os usuários naveguem por listas organizadas de livros, acessem biografias completas de autores e leiam resenhas detalhadas que oferecem insights valiosos sobre cada obra. A aplicação também oferece uma experiência de pesquisa ágil e funcional, permitindo localizar rapidamente informações específicas sobre autores ou títulos.
 
-## Developing
+## 🖥️ Como rodar este projeto 🖥️
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Requisitos:
 
-```bash
-npm run dev
+- Node.js instalado
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Execução:
 
-## Building
+1. Clone o repositório:
 
-To create a production version of your app:
+   ```sh
+   git clone https://github.com/wgaboardi/books-svelte.git
+   ```
 
-```bash
-npm run build
-```
+2. Acesse o diretório do projeto:
 
-You can preview the production build with `npm run preview`.
+   ```sh
+   cd books-svelte
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-"# books-svelte" 
+3. Instale as dependências:
+
+   ```sh
+   npm install
+   ```
+
+4. Inicie o projeto:
+
+   ```sh
+   npm run dev
+   ```
+
+5. Acesse o projeto em [http://localhost:3000](http://localhost:3000).
+
+## 🗒️ Features do projeto 🗒️
+
+- Exibição organizada de livros e autores
+- Interface responsiva
+- Navegação interativa e dinâmica
+- Modo escuro
+
+![](https://github.com/wgaboardi/books-svelte/raw/main/.gitassets/2.jpg)
+
+## 💎 Links úteis 💎
+
+- [Documentação do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Documentação do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Documentação do Svelte](https://svelte.dev/docs)
+- [Documentação do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
